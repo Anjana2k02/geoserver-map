@@ -11,4 +11,5 @@ RUN mkdir -p /usr/local/tomcat/conf/Catalina/localhost && \
 # Copy shapefile into container
 COPY data/ /opt/geoserver/data_dir/data/
 
+
 EXPOSE 8080
